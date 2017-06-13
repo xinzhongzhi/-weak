@@ -15,6 +15,8 @@
 		C489E27B1EEFAE0C0049521F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C489E2791EEFAE0C0049521F /* LaunchScreen.storyboard */; };
 		C489E2861EEFAE0C0049521F /* ______weakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E2851EEFAE0C0049521F /* ______weakTests.m */; };
 		C489E2911EEFAE0C0049521F /* ______weakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E2901EEFAE0C0049521F /* ______weakUITests.m */; };
+		C489E2A01EEFAE3F0049521F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E29F1EEFAE3F0049521F /* Person.m */; };
+		C489E2A31EEFB73C0049521F /* XZZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E2A21EEFB73C0049521F /* XZZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C489E28C1EEFAE0C0049521F /* 代理为什么用weakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代理为什么用weakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C489E2901EEFAE0C0049521F /* ______weakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______weakUITests.m"; sourceTree = "<group>"; };
 		C489E2921EEFAE0C0049521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C489E29E1EEFAE3F0049521F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C489E29F1EEFAE3F0049521F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C489E2A11EEFB73C0049521F /* XZZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZPerson.h; sourceTree = "<group>"; };
+		C489E2A21EEFB73C0049521F /* XZZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				C489E26F1EEFAE0C0049521F /* AppDelegate.m */,
 				C489E2711EEFAE0C0049521F /* ViewController.h */,
 				C489E2721EEFAE0C0049521F /* ViewController.m */,
+				C489E29E1EEFAE3F0049521F /* Person.h */,
+				C489E29F1EEFAE3F0049521F /* Person.m */,
+				C489E2A11EEFB73C0049521F /* XZZPerson.h */,
+				C489E2A21EEFB73C0049521F /* XZZPerson.m */,
 				C489E2741EEFAE0C0049521F /* Main.storyboard */,
 				C489E2771EEFAE0C0049521F /* Assets.xcassets */,
 				C489E2791EEFAE0C0049521F /* LaunchScreen.storyboard */,
@@ -275,6 +285,8 @@
 			files = (
 				C489E2731EEFAE0C0049521F /* ViewController.m in Sources */,
 				C489E2701EEFAE0C0049521F /* AppDelegate.m in Sources */,
+				C489E2A01EEFAE3F0049521F /* Person.m in Sources */,
+				C489E2A31EEFB73C0049521F /* XZZPerson.m in Sources */,
 				C489E26D1EEFAE0C0049521F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +521,7 @@
 				C489E2971EEFAE0C0049521F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C489E2981EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weakTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				C489E29A1EEFAE0C0049521F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C489E29B1EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weakUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				C489E29D1EEFAE0C0049521F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

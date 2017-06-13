@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XZZPerson.h"/**/
 @interface ViewController ()
 
 @end
@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // 实例化XZZPerson, self对XZZPerson弱引用，XZZPerson的retainCount不变
+    XZZPerson * per = [[XZZPerson alloc]init];
 }
 
 
