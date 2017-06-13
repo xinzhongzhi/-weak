@@ -23,6 +23,7 @@
 }
 - (void)dealloc
 {
+    /*其实 XZZPerson 和 person 类谁使用了weak都会释放，但是都写成strong就不会释放造成循环引用 只要引用计数为0 就不会造成循环引用*/
     NSLog(@"XZZPerson----销毁");
 }
 @end
