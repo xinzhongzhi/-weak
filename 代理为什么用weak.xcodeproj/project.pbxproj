@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C489E26D1EEFAE0C0049521F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E26C1EEFAE0C0049521F /* main.m */; };
+		C489E2701EEFAE0C0049521F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E26F1EEFAE0C0049521F /* AppDelegate.m */; };
+		C489E2731EEFAE0C0049521F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E2721EEFAE0C0049521F /* ViewController.m */; };
+		C489E2761EEFAE0C0049521F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C489E2741EEFAE0C0049521F /* Main.storyboard */; };
+		C489E2781EEFAE0C0049521F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C489E2771EEFAE0C0049521F /* Assets.xcassets */; };
+		C489E27B1EEFAE0C0049521F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C489E2791EEFAE0C0049521F /* LaunchScreen.storyboard */; };
+		C489E2861EEFAE0C0049521F /* ______weakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E2851EEFAE0C0049521F /* ______weakTests.m */; };
+		C489E2911EEFAE0C0049521F /* ______weakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E2901EEFAE0C0049521F /* ______weakUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C489E2821EEFAE0C0049521F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C489E2601EEFAE0C0049521F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C489E2671EEFAE0C0049521F;
+			remoteInfo = "代理为什么用weak";
+		};
+		C489E28D1EEFAE0C0049521F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C489E2601EEFAE0C0049521F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C489E2671EEFAE0C0049521F;
+			remoteInfo = "代理为什么用weak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C489E2681EEFAE0C0049521F /* 代理为什么用weak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代理为什么用weak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C489E26C1EEFAE0C0049521F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C489E26E1EEFAE0C0049521F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C489E26F1EEFAE0C0049521F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C489E2711EEFAE0C0049521F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C489E2721EEFAE0C0049521F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C489E2751EEFAE0C0049521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C489E2771EEFAE0C0049521F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C489E27A1EEFAE0C0049521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C489E27C1EEFAE0C0049521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C489E2811EEFAE0C0049521F /* 代理为什么用weakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代理为什么用weakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C489E2851EEFAE0C0049521F /* ______weakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______weakTests.m"; sourceTree = "<group>"; };
+		C489E2871EEFAE0C0049521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C489E28C1EEFAE0C0049521F /* 代理为什么用weakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代理为什么用weakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C489E2901EEFAE0C0049521F /* ______weakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______weakUITests.m"; sourceTree = "<group>"; };
+		C489E2921EEFAE0C0049521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C489E2651EEFAE0C0049521F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C489E27E1EEFAE0C0049521F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C489E2891EEFAE0C0049521F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C489E25F1EEFAE0C0049521F = {
+			isa = PBXGroup;
+			children = (
+				C489E26A1EEFAE0C0049521F /* 代理为什么用weak */,
+				C489E2841EEFAE0C0049521F /* 代理为什么用weakTests */,
+				C489E28F1EEFAE0C0049521F /* 代理为什么用weakUITests */,
+				C489E2691EEFAE0C0049521F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C489E2691EEFAE0C0049521F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C489E2681EEFAE0C0049521F /* 代理为什么用weak.app */,
+				C489E2811EEFAE0C0049521F /* 代理为什么用weakTests.xctest */,
+				C489E28C1EEFAE0C0049521F /* 代理为什么用weakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C489E26A1EEFAE0C0049521F /* 代理为什么用weak */ = {
+			isa = PBXGroup;
+			children = (
+				C489E26E1EEFAE0C0049521F /* AppDelegate.h */,
+				C489E26F1EEFAE0C0049521F /* AppDelegate.m */,
+				C489E2711EEFAE0C0049521F /* ViewController.h */,
+				C489E2721EEFAE0C0049521F /* ViewController.m */,
+				C489E2741EEFAE0C0049521F /* Main.storyboard */,
+				C489E2771EEFAE0C0049521F /* Assets.xcassets */,
+				C489E2791EEFAE0C0049521F /* LaunchScreen.storyboard */,
+				C489E27C1EEFAE0C0049521F /* Info.plist */,
+				C489E26B1EEFAE0C0049521F /* Supporting Files */,
+			);
+			path = "代理为什么用weak";
+			sourceTree = "<group>";
+		};
+		C489E26B1EEFAE0C0049521F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C489E26C1EEFAE0C0049521F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C489E2841EEFAE0C0049521F /* 代理为什么用weakTests */ = {
+			isa = PBXGroup;
+			children = (
+				C489E2851EEFAE0C0049521F /* ______weakTests.m */,
+				C489E2871EEFAE0C0049521F /* Info.plist */,
+			);
+			path = "代理为什么用weakTests";
+			sourceTree = "<group>";
+		};
+		C489E28F1EEFAE0C0049521F /* 代理为什么用weakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C489E2901EEFAE0C0049521F /* ______weakUITests.m */,
+				C489E2921EEFAE0C0049521F /* Info.plist */,
+			);
+			path = "代理为什么用weakUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C489E2671EEFAE0C0049521F /* 代理为什么用weak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C489E2951EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weak" */;
+			buildPhases = (
+				C489E2641EEFAE0C0049521F /* Sources */,
+				C489E2651EEFAE0C0049521F /* Frameworks */,
+				C489E2661EEFAE0C0049521F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "代理为什么用weak";
+			productName = "代理为什么用weak";
+			productReference = C489E2681EEFAE0C0049521F /* 代理为什么用weak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C489E2801EEFAE0C0049521F /* 代理为什么用weakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C489E2981EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weakTests" */;
+			buildPhases = (
+				C489E27D1EEFAE0C0049521F /* Sources */,
+				C489E27E1EEFAE0C0049521F /* Frameworks */,
+				C489E27F1EEFAE0C0049521F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C489E2831EEFAE0C0049521F /* PBXTargetDependency */,
+			);
+			name = "代理为什么用weakTests";
+			productName = "代理为什么用weakTests";
+			productReference = C489E2811EEFAE0C0049521F /* 代理为什么用weakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C489E28B1EEFAE0C0049521F /* 代理为什么用weakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C489E29B1EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weakUITests" */;
+			buildPhases = (
+				C489E2881EEFAE0C0049521F /* Sources */,
+				C489E2891EEFAE0C0049521F /* Frameworks */,
+				C489E28A1EEFAE0C0049521F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C489E28E1EEFAE0C0049521F /* PBXTargetDependency */,
+			);
+			name = "代理为什么用weakUITests";
+			productName = "代理为什么用weakUITests";
+			productReference = C489E28C1EEFAE0C0049521F /* 代理为什么用weakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C489E2601EEFAE0C0049521F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "辛忠志";
+				TargetAttributes = {
+					C489E2671EEFAE0C0049521F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C489E2801EEFAE0C0049521F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C489E2671EEFAE0C0049521F;
+					};
+					C489E28B1EEFAE0C0049521F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C489E2671EEFAE0C0049521F;
+					};
+				};
+			};
+			buildConfigurationList = C489E2631EEFAE0C0049521F /* Build configuration list for PBXProject "代理为什么用weak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C489E25F1EEFAE0C0049521F;
+			productRefGroup = C489E2691EEFAE0C0049521F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C489E2671EEFAE0C0049521F /* 代理为什么用weak */,
+				C489E2801EEFAE0C0049521F /* 代理为什么用weakTests */,
+				C489E28B1EEFAE0C0049521F /* 代理为什么用weakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C489E2661EEFAE0C0049521F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489E27B1EEFAE0C0049521F /* LaunchScreen.storyboard in Resources */,
+				C489E2781EEFAE0C0049521F /* Assets.xcassets in Resources */,
+				C489E2761EEFAE0C0049521F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C489E27F1EEFAE0C0049521F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C489E28A1EEFAE0C0049521F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C489E2641EEFAE0C0049521F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489E2731EEFAE0C0049521F /* ViewController.m in Sources */,
+				C489E2701EEFAE0C0049521F /* AppDelegate.m in Sources */,
+				C489E26D1EEFAE0C0049521F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C489E27D1EEFAE0C0049521F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489E2861EEFAE0C0049521F /* ______weakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C489E2881EEFAE0C0049521F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489E2911EEFAE0C0049521F /* ______weakUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C489E2831EEFAE0C0049521F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C489E2671EEFAE0C0049521F /* 代理为什么用weak */;
+			targetProxy = C489E2821EEFAE0C0049521F /* PBXContainerItemProxy */;
+		};
+		C489E28E1EEFAE0C0049521F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C489E2671EEFAE0C0049521F /* 代理为什么用weak */;
+			targetProxy = C489E28D1EEFAE0C0049521F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C489E2741EEFAE0C0049521F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C489E2751EEFAE0C0049521F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C489E2791EEFAE0C0049521F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C489E27A1EEFAE0C0049521F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C489E2931EEFAE0C0049521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C489E2941EEFAE0C0049521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C489E2961EEFAE0C0049521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "代理为什么用weak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------weak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C489E2971EEFAE0C0049521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "代理为什么用weak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------weak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C489E2991EEFAE0C0049521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "代理为什么用weakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------weakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/代理为什么用weak.app/代理为什么用weak";
+			};
+			name = Debug;
+		};
+		C489E29A1EEFAE0C0049521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "代理为什么用weakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------weakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/代理为什么用weak.app/代理为什么用weak";
+			};
+			name = Release;
+		};
+		C489E29C1EEFAE0C0049521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "代理为什么用weakUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------weakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "代理为什么用weak";
+			};
+			name = Debug;
+		};
+		C489E29D1EEFAE0C0049521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "代理为什么用weakUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------weakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "代理为什么用weak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C489E2631EEFAE0C0049521F /* Build configuration list for PBXProject "代理为什么用weak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489E2931EEFAE0C0049521F /* Debug */,
+				C489E2941EEFAE0C0049521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C489E2951EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489E2961EEFAE0C0049521F /* Debug */,
+				C489E2971EEFAE0C0049521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C489E2981EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489E2991EEFAE0C0049521F /* Debug */,
+				C489E29A1EEFAE0C0049521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C489E29B1EEFAE0C0049521F /* Build configuration list for PBXNativeTarget "代理为什么用weakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489E29C1EEFAE0C0049521F /* Debug */,
+				C489E29D1EEFAE0C0049521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C489E2601EEFAE0C0049521F /* Project object */;
+}
